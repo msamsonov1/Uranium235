@@ -1,0 +1,23 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Create a list of time values
+time = np.linspace(0, 10, 10)
+
+# Create a list of temperature values
+temperature = np.array([100, 150, 200, 250, 300, 350, 400, 450, 500, 550])
+
+# Plot the temperature values as a line graph
+plt.plot(time, temperature)
+
+# Set the title of the graph
+plt.title('Temperature of Pool Cooling Uranium 235')
+
+# Set the x-axis label
+plt.xlabel('Time (s)')
+
+# Set the y-axis label
+plt.ylabel('Temperature (°C)')
+
+# Show the graph
+plt.show()
